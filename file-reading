@@ -1,0 +1,3 @@
+with open('pi_digits.txt') as file_object:  #打开xxx文件，txt   
+  contents = file_object.read()     
+  print(contents) 
